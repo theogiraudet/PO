@@ -4,7 +4,7 @@ public class Paie {
 
 	public static void main(String[] args) {
 		Commercial commercial = new Commercial("c");
-		commercial.setInfoSalary(2_000, 1_000_000); //L'utilisation de l'underscore est autorisé en tant que séparateur de centaines pour rendre le nombre plus lisible
+		commercial.setInfoSalary(2_000, 1_000_000); //L'utilisation de l'underscore est autorisé en tant que séparateur pour rendre le nombre plus lisible
 		EmployeHoraire employeH1 = new EmployeHoraire("eh3", 250, 40, 30);
 		EmployeHoraire employeH2 = new EmployeHoraire("eh5", 250, 40, 50);
 		EmployeHoraire employeH3 = new EmployeHoraire("eh32", 510, 28, 50);
