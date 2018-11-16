@@ -12,7 +12,7 @@ public class EmployeHoraire extends Employe {
 	}
 
 	public EmployeHoraire(String name) {
-		super(name);
+		super(name); //Appelle le constructeur de la classe mère
 	}
 
 	public int getPercent() {

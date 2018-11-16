@@ -2,7 +2,7 @@ package istic.l2.po.tp3;
 
 public class Commercial extends Employe {
 
-	private int receipts;
+	private double receipts;
 	
 	public Commercial(String name) {
 		super(name);
@@ -18,12 +18,12 @@ public class Commercial extends Employe {
 		return fixedSum + receipts / 100;
 	}
 	
-	public void setInfoSalary(int fixedSum, int receipts) {
+	public void setInfoSalary(int fixedSum, double receipts) {
 		this.fixedSum = fixedSum;
 		this.receipts = receipts;
 	}
 	
-	public int getReceipts() {
+	public double getReceipts() {
 		return receipts;
 	}
 	
