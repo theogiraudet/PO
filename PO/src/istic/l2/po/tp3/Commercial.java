@@ -1,0 +1,31 @@
+package istic.l2.po.tp3;
+
+public class Commercial extends Employe {
+
+	private int receipts;
+	
+	public Commercial(String name) {
+		super(name);
+	}
+	
+	public Commercial(String name, int fixedSum, int receipts) {
+		super(name, fixedSum);
+		this.receipts = receipts;
+	}
+
+	@Override
+	public double getSalary() {
+		return fixedSum + receipts / 100;
+	}
+	
+	public void setInfoSalary(int fixedSum, int receipts) {
+		this.fixedSum = fixedSum;
+		this.receipts = receipts;
+	}
+	
+	public int getReceipts() {
+		return receipts;
+	}
+	
+
+}
